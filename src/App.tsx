@@ -1,12 +1,9 @@
-import './index.css';
+import Navbar from './component/Navbar'
 import SensorDashboard from './component/SensorDashbord'
-
-
 function App() {
-
   return (
-
-    <div className='bg-blue-400 text-center'>
+    <div>
+      <Navbar />
       <SensorDashboard />
     </div>
   )
